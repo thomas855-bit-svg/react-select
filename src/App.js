@@ -8,12 +8,14 @@ const colourOptions = [] //our array of colours
 class App extends React.Component {
   render(){
     return (
+	<div>
       <Select
         className="mt-4 col-md-6 col-offset-4"
         components={makeAnimated()}
         isMulti
         options={colourOptions}
         />
+</div>
     );
   }
 }
